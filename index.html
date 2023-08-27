@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="style.css">  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="input.css">
+     <link rel="stylesheet" href="./dist/output.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--nav-bar-->
+    <section>
+  <nav class="z-[5] bg-white flex items-center justify-between px-[24px] md:px-[40px] lg:px-[60px]
+  py-[30px] w-[100%] fixed top-0">
+    <h2 class=" text-gray-500 font-[600] text-[18px] leading-[27px] 
+    md:text-[20px] md:leading-[30px] lg:text-[32px] lg:leading-[55px]">
+    My Portfolio</h2> 
+    <!-- nav-links -->
+ <div class="  hidden  md:flex  gap-[25px]">
+     <a href="#Home" class="  text-gray-500 font-[400] text-[18px] md:leading-[30px]
+     hover:text-blue-500 
+     ">Home</a>
+      <a href="#About" class=" text-gray-500 font-[400] text-[18px] md:leading-[30px]
+      hover:text-blue-500   
+      ">About</a>
+       <a href="#Project" class=" text-gray-500 font-[400] text-[18px] leading-[30px]  
+       hover:text-blue-500 ">Project</a>
+      <a href="#Contact" class=" text-gray-500 font-[400] text-[18px] leading-[30px] 
+      hover:text-blue-500 ">Contact</a>
+    </div>
+    <button id="menu-btn" class=" block hamburger md:hidden 
+     focus:outline-none">
+  <span class="hamburger-top"></span>
+  <span class="hamburger-middle"></span>
+  <span class="hamburger-bottom"></span>
+  </button>
+     </nav>
+     
+          </section> 
+            
+          <div class="bg-blue-400 Home h-[500px] md:h-[700px] mt-[100px] md:items-center">
+            <div class="flex flex-col md:flex md:flex-row 
+            px-[24px] md:px-[40px] lg:px-[60px]" id="Home">
+          <div class="header md:w-[50%]">
+          <h2 class="text-white text-[40px] leading-[50px] md:text-[50px]  md:leading-[65px] 
+          lg:text-[70px] lg:leading-[80px]">
+            <br>Hey i'm Oladimeji,
+           <br> Let's  collaborate, 
+           <br> and work on a project
+    
+          </h2>
+          </div>
+          <div class="img flex md:w-[50%] md:justify-end md:items-center
+           justify-center">
+      <img class="rounded-full w-[300px] h-[300px] 
+      "  src="./images/picture.jpeg" alt="">
+          </div>
+            </div>
+    
+          </div>
+                <!-- About -->
+               
+   <div class="section2  flex px-[24px] md:px-[40px] lg:px-[60px]
+     bg-[#434651] h-[800px]  md:pt-[50px] " id="About">
+      <!-- tabs -->
+    <div class="hidden md:static Tabs md:w-[50%] md:flex md:flex-col 
+    md:gap-[30px] md:pt-[100px] md:justify-start " >
+   <h2 class="tab font-[700] text-[#0081f1] md:text-[30px] 
+   md:leading-[40px]
+    lg:text-[42px] lg:leading-[50px]" data-target="#Skills">
+    Skills
+  </h2>
+   <h2 class="tab font-[700] text-[#0081f1] md:text-[30px] 
+   md:leading-[40px]
+    lg:text-[42px] lg:leading-[50px] " data-target="#Collaborations">Collaborations</h2>
+   <h2 class="tab font-[700] text-[#0081f1] md:text-[30px] 
+   md:leading-[40px]
+    lg:text-[42px] lg:leading-[50px]" data-target="#Work">Work Experience</h2>
+    </div>
+    <!-- container-right -->
+    <div class="About md:relative py-[30px] md:py-[0px]  md:w-[50%] flex flex-col 
+    md:flex md:flex-row  md:gap-[0px] gap-[20px] ">
+    <!-- item1 -->
+      <div class=  "box md:absolute md:z-[2] md:right-[30%] 
+       bg-white flex flex-col py-[20px] items-center 
+      border-[2px] rounded-[16px] px-[10px]
+      md:w-[350px] lg:w-[400px] h-[300px] gap-[20px]   md:overflow-y-scroll
+       " id="Skills">
+        <!-- header -->
+      <h2 class=" font-[600] text-[18px] leading-[27px] 
+      md:text-[20px] md:leading-[30px]  pb-[10px] border-b-[2px] border-[black]">
+      Soft Skills</h2>
+      <!-- paragraph -->
+      <p class="text-center font-[400] text-[18px] md:leading-[30px]
+       ">
+       I am a solution-oriented person,to projects 
+       and love to listen to others with ideas
+       Open-minded,love to learn and get engaged in 
+       different projects and communities   
+       A fast paced learner in understanding information</p>
+      </div>
+      <!-- item2 -->
+      <div class="box md:absolute md:z-[1] md:right-[10%] flex flex-col py-[20px] px-[10px] gap-[20px] 
+      items-center md:w-[350px] lg:w-[400px] h-[300px] 
+       bg-white  border-[2px] rounded-[16px]  md:overflow-y-scroll
+       " id="Collaborations">
+        <!-- header -->
+        <h2 class="  font-[600] text-[18px] leading-[27px] 
+        md:text-[20px] md:leading-[30px]
+        pb-[10px] border-b-[2px] border-[black]">
+        Collaborations
+      </h2>
+        <p class="text-center font-[400] text-[18px] leading-[30px]
+      ">I build modern responsive,Visually appealing website and webpages and
+       work on properly structurized code that can easily work with back-end 
+        I make sure to pay attention to necessary design principles 
+        needed to make web pages look good </p>
+        </div>
+        <!-- item3 -->
+        <div class="box md:absolute md:z-[0] md:right-[0] flex flex-col bg-white md:w-[350px] lg:w-[400px] h-[300px
+        ] items-center gap-[20px] py-[20px] px-[10px] 
+        border-[2px] rounded-[16px] ] overflow-y-scroll"
+        id="Work">
+          <!-- header -->
+          <h2 class=" font-[600] text-[18px] leading-[27px] 
+          md:text-[20px] md:leading-[30px] 
+          pb-[10px] border-b-[2px] border-[black]">
+          Experience</h2>
+          <!-- paragraph -->
+          <p class="text-center font-[400] text-[18px] leading-[30px]
+         ">Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Voluptatibus ex temporibus facilis fugit
+        perspiciatis consequuntur ratione similique, 
+        voluptatum eum cum earum aut quod nisi obcaecati
+        provident maiores deserunt mollitia quidem a blanditiis
+         reiciendis
+             sunt! Optio soluta beatae pariatur repellat ut.</p>
+          </div>
+    </div>
+    </div>
+    <!-- project section -->
+    <div class="md:h-[1200px] px-[24px] md:px-[40px] lg:px-[60px] md:py-[40px]" id="Project" >
+   <h2 class="text-center font-[600] py-[20px] md:pb-[20px] md:py-[30px] lg:text-[40px] lg:leading-[52px] 
+   md:text-[30px] md:leading-[40px] 
+   ">How a responsive Website looks like</h2>
+   <div class="flex justify-end">
+   <p class=" font-[500] text-[18px] md:leading-[30px] py-[40px]"> Swipe to right to see more</p>
+   </div>
+     <!-- container for scroll -->
+     
+     <div class="flex gap-[40px] overflow-x-auto">
+      <!-- page1 -->
+<div class="flex flex-col w-[100%] gap-[40px] shrink-0">
+   <div class="flex flex-col md:flex md:flex-row md:justify-between gap-[20px]">
+        
+      <img src="./images/Quotient-dash.jpg" class="md:w-[45%] h-[400px]"  alt="">
+      <img src="./images/Quotient.jpeg" class="md:w-[45%] h-[400px]" alt="">
+   </div>
+   <div class="flex flex-col md:flex md:flex-row md:justify-between gap-[20px]">
+    <img src="./images/logistics.jpg" class="md:w-[45%] h-[400px]" class="" alt="">
+    <img src="./images/navonye.jpg" class="md:w-[45%] h-[400px]" alt="">
+   </div>
+   </div>
+   <div class="flex flex-col w-[100%] gap-[40px] shrink-0">
+    <div class="flex flex-col md:flex md:flex-row md:justify-between gap-[20px]">
+       <img src="./images/chika.jpg" class="md:w-[45%] h-[400px]"  alt="">
+       <img src="./images/image.png" class="md:w-[45%] h-[400px]" alt="">
+    </div>
+    <div class="md:flex md:flex-row md:justify-center ">
+     <img src="./images/discover.jpg" class="md:w-[45%] h-[400px]" class="" alt="">
+     
+    </div>
+    </div>
+ 
+    </div>
+    </div>
+    
+
+
+     
+            <!-- </div> -->
+            <!-- contact -->
+            <div class="section4  h-[600px] pt-[50px]" id="Contact">
+              <div class="contact-text ">
+                <h2 class="text-center text-[16px] font-[700] pb-[30px] leading-[21px] md:text-[32px] 
+                md:leading-[40px]
+                lg:text-[32px] lg-leading-[48px]"> 
+                  You can reach me by filling this form</h2>
+                </div>
+            <div class="contact-input flex flex-col gap-[30px]  px-[24px] md:px-[0px]
+            h-[500px] md:w-[50%] md:mx-auto my-auto">
+             <form action="">
+              <div class="input1 flex flex-col gap-[10px] ">
+              <label class="label" class="font-[700] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]" for="Name">Name:</label>
+                  <input class="input px-[8px] py-[16px] border-[1px] border-gray-400 w-[100%] rounded-[16px] outline-none" type="text" placeholder="justin welsh">
+                  </div>
+             </form>
+                  <!-- form2 -->
+                  <form action="">
+                    <div class="flex flex-col gap-[10px]">
+                      <label class="font-[700] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]" for="email">Your Email:</label>
+                <input class="input border-[1px] border-gray-400  px-[8px] py-[16px] w-[100%] rounded-[16px] outline-none"
+                 type="email" placeholder="example@gmail.com">
+                  </div>
+                  </form>
+             <!-- form3 -->
+             <form action="">
+                <div class="flex flex-col gap-[10px]">
+                <label class="label font-[700] text-[14px] leading-[21px] md:text-[20px] md:leading-[30px]" for="work">let's chat:</label>
+                <input class="border-[1px] border-gray-400 px-[8px] py-[16px] w-[100%] rounded-[16px] outline-none" 
+                type="text">
+                </div>
+                <div class="flex justify-center">
+                  <a href="#" class="mt-[30px] text-white px-[24px] py-[16px] bg-[#0081f1] rounded-[8px]"
+                    formmethod="send" >Submit</a>
+                </div>
+              </div>
+            
+           
+          
+    </div>
+        </div>
+        <!-- footer -->
+            <div class="footer-container py-[20px] md:py-[0px] bg-gray-300 h-[300px] items-center  px-[24px] md:px-[40px] lg:px-[60px]
+             flex flex-col md:flex md:flex-row justify-between">
+              
+        <div class="flex flex-col">
+           <h2 class="font-[700] text-[14px] leading-[21px] md:text-[20px]
+            md:leading-[20px] 
+           ">Front-end developer</h2>
+            <h2 class="font-[700] text-[14px] leading-[21px] md:text-[20px]
+            md:leading-[20px]">balooladimeji29@gmail.com</h2>
+              </div>
+              <div class="flex flex-col md:flex md:flex-row gap-[15px]">
+        <div class="twitter">
+<a id="social" href="https://twitter.com/balodim1?t=I1vcZau1KuxIHYG5KE2N6g&s=08">
+   <i class="fab fa-twitter"></i>
+       </a>
+   </div>
+   <div class="gmail">
+  <a id="social" href=""><i class="fa fa-envelope"></i></a>
+   </div>
+   <div class="phone">
+   <a id="social" href="http://Wa.me/2349065013817"><i class="fa fa-phone"></i></a>
+   </div>
+    </div>
+    <div class="copy-text">
+      <p class="font-[400] text-[14px] leading-[21px] md:text-[20px]
+      md:leading-[20px]">&copy;copyright2023</p>
+              <p>All rights reserved</p>
+                  </div>
+            </div>
+            
+            
+            <div class="md:hidden">
+              <div  id="menu" class="bg-[#0081f1] fixed top-[40px] text-white flex flex-col items-center
+              hidden self-end  py-8 mt-10 space-y-6 font-bold 
+              sm:w-auto sm:self-center left-6 right-6">
+              <a href="#Home">Home</a>
+              <a href="#About">About</a>
+              <a href="#Project">Project</a>
+              <a href="#Contact">Contact</a>
+              
+          </div>
+<script src="script.js"></script> 
+</body>
+</html>
