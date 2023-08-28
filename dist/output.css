@@ -2734,6 +2734,10 @@ video {
     height: 700px;
   }
 
+  .md\:h-\[800px\] {
+    height: 800px;
+  }
+
   .md\:w-\[350px\] {
     width: 350px;
   }
@@ -2780,6 +2784,10 @@ video {
 
   .md\:gap-\[30px\] {
     gap: 30px;
+  }
+
+  .md\:overflow-hidden {
+    overflow: hidden;
   }
 
   .md\:overflow-y-scroll {
