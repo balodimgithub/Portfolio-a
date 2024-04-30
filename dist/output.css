@@ -2036,11 +2036,6 @@ video {
   padding-bottom: 40px;
 }
 
-.px-\[20px\] {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .pb-\[10px\] {
   padding-bottom: 10px;
 }
@@ -2997,11 +2992,6 @@ video {
   .lg\:py-\[20px\] {
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-
-  .lg\:px-\[70px\] {
-    padding-left: 70px;
-    padding-right: 70px;
   }
 
   .lg\:pt-\[20px\] {
